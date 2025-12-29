@@ -1,0 +1,25 @@
+.arrivals-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.arrivals-table th,
+.arrivals-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.arrivals-table th {
+  background: #f5f7fa;
+  font-weight: 600;
+}
+
+.arrivals-table tr:hover {
+  background: #f9fafb;
+}
