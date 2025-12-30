@@ -60,3 +60,25 @@ body {
   gap: 20px;
   width: 100%;
 }
+
+.table-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.table-controls button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #1346a3;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.table-controls button:hover {
+  background: #0f357d;
+}

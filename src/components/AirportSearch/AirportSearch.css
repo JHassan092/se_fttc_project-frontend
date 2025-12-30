@@ -14,7 +14,7 @@
   font-size: 1rem;
 }
 
-.airport-search__button {
+.airport-search__btn {
   padding: 10px 16px;
   background: #1346a3;
   color: #fff;
@@ -25,6 +25,6 @@
   transition: background 0.2s ease;
 }
 
-.airport-search__button:hover {
+.airport-search__btn:hover {
   background: #0f357d;
 }

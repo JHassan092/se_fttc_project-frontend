@@ -21,7 +21,7 @@ export default function AirportSearch({ onSearch }) {
         onChange={(e) => setAirportCode(e.target.value)}
         className="airport-search__input"
       />
-      <button type="submit" className="airport-search_btn">
+      <button type="submit" className="airport-search__btn">
         Search Arrivals
       </button>
     </form>

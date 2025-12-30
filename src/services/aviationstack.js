@@ -30,7 +30,7 @@ export async function fetchArrivalsByAirport(airportCode) {
 
     const data = await res.json();
     console.log("Arrivals API response:", data);
-    return data.data; // array of flights
+    return data.data;
   } catch (err) {
     console.error("Error fetching arrivals:", err);
     throw err;
@@ -42,10 +42,10 @@ export async function fetchDeparturesByAirport(airportCode) {
     const res = await fetch(
       `${BASE_URL}/flights?access_key=${API_KEY}&dep_iata=${airportCode}`
     );
-    if (res.ok) throw new Error(`Request failed: ${res.status}`);
+    if (!res.ok) throw new Error(`Request failed: ${res.status}`);
 
     const data = await res.json();
-    console.log("Departures APIT response:", data);
+    console.log("Departures API response:", data.data);
     return data.data;
   } catch (err) {
     console.error("Error fetching departures:", err);
