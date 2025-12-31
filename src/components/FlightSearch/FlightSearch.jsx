@@ -38,7 +38,7 @@ export default function FlightSearch({ onSearch }) {
             name="FlightNumber"
             type="text"
             className="flight-search__input"
-            placeholder="e.g., DL404"
+            placeholder="e.g. DL404"
             value={flightNumber}
             onChange={(e) => setFlightNumber(e.target.value)}
             required

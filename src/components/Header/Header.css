@@ -1,16 +1,19 @@
 .header {
   display: flex;
-  align-items: center; /* vertically center logo and nav */
-  justify-content: flex-start; /* push content to the left */
-  padding: 0 20px;
-  height: 70px; /* adjust as needed */
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  top: -27px;
+  left: -5px;
+  width: 100%;
+  z-index: 1000;
   position: fixed;
 }
 
 .header__logo {
-  height: 145px;
-  width: 150px;
-  margin-right: 20px; /* space between logo and other items */
+  height: 170px;
+  width: 175px;
+  margin: 0;
 }
 
 .header-icon {

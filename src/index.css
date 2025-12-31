@@ -76,7 +76,7 @@ body::before {
 /* Main layout */
 .home {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
