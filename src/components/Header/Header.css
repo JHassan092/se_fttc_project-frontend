@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center; /* vertically center logo and nav */
+  justify-content: flex-start; /* push content to the left */
+  padding: 0 20px;
+  height: 70px; /* adjust as needed */
+  position: fixed;
+}
+
+.header__logo {
+  height: 145px;
+  width: 150px;
+  margin-right: 20px; /* space between logo and other items */
+}
+
+.header-icon {
+  height: 100%;
+  width: auto;
+}
